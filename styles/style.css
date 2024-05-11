@@ -1,0 +1,1560 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root {
+     --bg: #15202b;
+     --garis: #253341;
+     --tem: #0099ff;
+     --cool: #192734;
+     --abu: #F5F8FA;
+     --biru: #146182;
+     --lemb: rgba(0, 153, 255, 0.15);
+}
+
+* {
+     padding: 0;
+     margin: 0;
+     font-family: 'Acme', sans-serif;
+}
+
+body {
+     background: var(--bg);
+     color: white;
+}
+
+.light-mode .mobile {
+     background-color: white;
+     color: #000;
+}
+
+.light-mode .mobile .logo {
+     background-color: var(--tem);
+     color: white;
+}
+
+.light-mode .mobile .logo svg {
+     color: white;
+}
+
+.light-mode .mobile .search-wrapper {
+     color: var(--tem);
+     border-radius: 20px;
+     background: var(--abu);
+}
+
+.light-mode .mobile .search-wrapper .search-input {
+     background: var(--abu);
+     color: var(--tem);
+     border-radius: 20px;
+}
+
+.light-mode .mobile .isi-tanya-container {
+     margin-bottom: 30px;
+}
+
+.light-mode .mobile .isi-tanya {
+     background: var(--abu);
+}
+
+.light-mode .mobile .waktu span {
+     background: var(--garis);
+}
+
+.light-mode .mobile .dilihat svg {
+     color: var(--tem);
+}
+
+.light-mode .mobile .hasil-jawab .tanya,
+.light-mode .hasil-jawab .tanya textarea {
+     background: none;
+     border: none;
+}
+
+.light-mode .mobile ::selection {
+     background: var(--tem);
+     color: white;
+}
+
+.light-mode .mobile .navbar {
+     background: var(--tem);
+}
+
+.light-mode .mobile .navbar svg {
+     color: white;
+}
+
+.light-mode .mobile .navbar svg.active,
+.light-mode .mobile .navbar svg:hover {
+     width: 20px;
+     padding: 5px;
+     border-radius: 20px;
+     background: var(--biru);
+     color: white;
+}
+
+.light-mode .mobile .container-jawab a span {
+     background: var(--tem);
+     border: 0;
+}
+
+.light-mode .mobile .container-jawab a span svg {
+     color: white;
+}
+
+.light-mode .mobile .tanya,
+.light-mode .tanya textarea {
+     background: white;
+     border: 0;
+}
+
+.light-mode .mobile .tanya {
+     border-bottom: 1px solid var(--tem);
+}
+
+.light-mode .mobile .mytabs-tanya,
+.light-mode .mytabs-tanya .tab {
+     background: white;
+}
+
+.light-mode .mytabs input[type='radio']+label {
+     background: var(--tem);
+     color: white;
+}
+
+.light-mode .mobile .mytabs input[type='radio']+label svg {
+     color: white;
+}
+
+.light-mode .mytabs input[type='radio']:checked+label {
+     background: var(--biru);
+}
+
+.light-mode .mobile .add-tanya {
+     border-top: 0;
+}
+
+.light-mode .mobile .isi-rangking .kanan svg {
+     color: var(--garis);
+}
+
+.light-mode .mobile .isi-rangking {
+     border-top: none;
+}
+
+.light-mode .mobile select,
+.light-mode .notif .info .dilihat {
+     background: var(--biru);
+     border-radius: 50px;
+}
+
+.light-mode .notif {
+     color: var(--garis);
+}
+
+.light-mode .notif .info span {
+     color: var(--tem);
+}
+
+.light-mode .notif .info .dilihat {
+     background: var(--lemb);
+}
+
+.light-mode .mobile .pencapaian {
+     background: var(--abu);
+     border: 1px solid var(--tem);
+     border-radius: 20px;
+}
+
+.light-mode .mobile .milikmu {
+     background: var(--tem);
+     border: 0;
+     color: white;
+}
+
+.light-mode .mobile .milikmu svg {
+     color: white;
+}
+
+.light-mode .mobile .profile {
+     background: var(--abu);
+     border: 0;
+     color: var(--garis);
+}
+
+.light-mode .mobile .profile img {
+     border-color: var(--tem);
+}
+
+.light-mode .mobile .isi-tanya-container .pencapaian {
+     background: var(--abu);
+     color: var(--garis);
+}
+
+.light-mode .mobile .isi-tanya-container .pencapaian svg {
+     color: var(--tem);
+}
+
+.light-mode .mobile .mytabs {
+     background: none;
+}
+
+.light-mode .mobile .mytabs .tab {
+     background: none;
+}
+
+.light-mode .mobile thead {
+     background: var(--biru);
+}
+
+.light-mode .mobile tbody {
+     background: var(--tem);
+}
+
+.light-mode .mobile .isi-tanya-container {
+     margin-bottom: 50px;
+}
+
+.light-mode .mobile .navigasi-tanya-jawab a {
+     color: var(--garis);
+}
+
+.light-mode .mobile .isi-tanya-container-tantangan {
+     background: var(--tem);
+     border-color: var(--abu);
+}
+
+.light-mode .mobile .profile img {
+     border-color: rgba(0, 153, 255, 0.15);
+}
+
+/* dekstop */
+.light-mode .container .main,
+.light-mode {
+     color: var(--garis);
+     background: white;
+}
+
+.light-mode .container .navbar {
+     background: var(--abu);
+     color: var(--garis);
+     border: 0;
+     border: 1px solid var(--tem);
+     color: var(--garis);
+     border-radius: 20px;
+}
+
+.light-mode .container .urut .active {
+     background: var(--lemb);
+}
+
+.light-mode .container .urut svg:hover {
+     background: var(--lemb);
+}
+
+.light-mode .container .urut svg {
+     color: var(--tem);
+     padding: 5px;
+}
+
+.light-mode .container .tingkatkan-poin {
+     background: var(--abu);
+     color: var(--tem);
+     border: 1px solid var(--tem);
+}
+
+.light-mode .container .tingkatkan-poin .poin {
+     background: var(--abu);
+     border-radius: 20px;
+     padding: 10px 5px;
+}
+
+.light-mode .container .tanya {
+     background: #fff;
+     border-color: var(--tem);
+}
+
+.light-mode .container .tingkatkan-poin .poin .icon-poin {
+     background: var(--tem);
+}
+
+.light-mode .container .tingkatkan-poin .poin .icon-poin svg {
+     color: white;
+}
+
+.light-mode .container .tingkatkan-poin .tiga {
+     background: var(--tem);
+
+}
+
+.light-mode .container .tingkatkan-poin .tiga:hover {
+     background: var(--biru);
+}
+
+.light-mode .container .tingkatkan-poin .label {
+     background: var(--tem);
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     color: white;
+}
+
+.light-mode .container .mapel a {
+     background: none;
+     color: var(--garis);
+}
+
+.light-mode .container .mapel a:hover {
+     color: var(--tem);
+}
+
+.light-mode .container .nav {
+     background: var(--abu);
+     border-radius: 20px;
+     color: var(--garis);
+}
+
+.light-mode .container .profile {
+     color: var(--garis);
+}
+
+.light-mode .container .nav:first-child {
+     background: none;
+     border: 0;
+}
+
+.light-mode .container .mapel .active:first-child {
+     color: var(--tem);
+}
+
+.light-mode .co4ntainer .nav:hover {
+     color: var(--tem);
+}
+
+.light-mode .container .nav svg {
+     color: var(--garis);
+}
+
+.light-mode .isi-tanya {
+     background: var(--abu);
+}
+
+.light-mode .container .mapel a svg {
+     color: var(--tem);
+}
+
+.light-mode .container .logo {
+     background: var(--tem);
+     color: white;
+}
+
+.light-mode .container .logo svg {
+     color: #fff;
+}
+
+.light-mode .container .profile {
+     border: 0;
+     background: var(--abu);
+     border-top: 1px solid var(--tem);
+     border-bottom: 1px solid var(--tem);
+}
+
+.light-mode .container .navigasi-tanya-jawab a {
+     color: var(--biru);
+}
+
+.light-mode .container .navigasi-tanya-jawab a:hover {
+     color: var(--tem);
+}
+
+.light-mode .container .profile img {
+     border-color: var(--lemb);
+}
+
+.light-mode .container .filter .isi-filter {
+     background: var(--tem);
+}
+
+.light-mode .container .filter .isi-filter a:hover {
+     background: var(--abu);
+     color: var(--garis);
+}
+
+.light-mode .isi-tanya .tombol-tanya {
+     background: var(--tem);
+}
+
+.light-mode .isi-tanya .tombol-tanya svg {
+     color: white;
+}
+
+.light-mode .isi-tanya .tombol-tanya:hover svg {
+     color: var(--tem);
+}
+
+.light-mode .container .menu,
+.light-mode .container .others {
+     border-color: var(--tem);
+}
+
+.light-mode .container .rangking {
+     background: var(--abu);
+     border: 1px solid var(--tem);
+}
+
+.light-mode .container .rangking div {
+     border: 0;
+}
+
+.light-mode .container .rangking .profile {
+     border-top: 1px solid var(--tem);
+     border-radius: 0;
+}
+
+.light-mode .container .rangking .akhir-rangking {
+     color: var(--tem);
+}
+
+.light-mode .container .search-wrapper {
+     border: 1px solid var(--tem);
+}
+
+.light-mode .container .isi-rangking {
+     border: 0;
+}
+
+.light-mode .container .isi-rangking svg {
+     color: var(--garis);
+}
+
+.light-mode .container .search-wrapper,
+.light-mode .container .search-input {
+     background: var(--abu);
+     color: var(--tem);
+}
+
+.light-mode .container a {
+     text-decoration: none;
+}
+
+.light-mode .container .milikmu {
+     background: var(--tem);
+     border: 0;
+     color: white;
+}
+
+.light-mode .container .milikmu svg {
+     color: white;
+}
+
+.light-mode .container .pencapaian {
+     background: var(--abu);
+     border-radius: 20px;
+     border: 1px solid var(--tem);
+}
+
+.light-mode .container .mytabs,
+.light-mode .container .mytabs .tab {
+     background: none;
+}
+
+.light-mode .container .mytabs svg {
+     color: white;
+}
+
+.light-mode .container thead {
+     background: var(--biru);
+}
+
+.light-mode .container tbody {
+     background: var(--tem);
+     border: 0;
+}
+
+a {
+     text-decoration: none;
+     color: white;
+}
+
+.modal-tanya {
+     border-bottom: 1px solid var(--tem);
+}
+
+.container {
+     display: flex;
+     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+     0% {
+          -webkit-filter: blur(12px);
+          filter: blur(12px);
+          opacity: 0;
+     }
+
+     100% {
+          -webkit-filter: blur(0px);
+          filter: blur(0px);
+          opacity: 1;
+     }
+}
+
+@keyframes text-focus-in {
+     0% {
+          -webkit-filter: blur(12px);
+          filter: blur(12px);
+          opacity: 0;
+     }
+
+     100% {
+          -webkit-filter: blur(0px);
+          filter: blur(0px);
+          opacity: 1;
+     }
+}
+
+
+.main {
+     padding: 20px;
+}
+
+.menu {
+     width: 30%;
+     border-right: 1px solid var(--garis);
+}
+
+.konten {
+     width: 50%;
+     height: 100%;
+     overflow-y: scroll;
+}
+
+.others {
+     border-left: 1px solid var(--garis);
+     width: 30%;
+}
+
+.logo {
+     display: flex;
+     border-radius: 20px;
+     padding: 10px;
+     justify-content: center;
+     background: var(--garis);
+     align-items: center;
+}
+
+.logo svg {
+     width: 20px;
+     margin-left: 10px;
+}
+
+.logo span {
+     margin-left: 10px;
+     font-weight: bolder;
+     font-family: 'Poppins', sans-serif;
+     font-size: 15pt;
+}
+
+.profile {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin-top: 20px;
+     padding: 10px;
+     border-bottom: 1px solid var(--garis);
+     border-top: 1px solid var(--garis);
+     color: #fff;
+}
+
+.asal-sekolah span {
+     font-size: 10pt;
+}
+
+.profile img {
+     width: 50px;
+     border: 5px solid var(--garis);
+     border-radius: 100%;
+     margin-right: 10px;
+}
+
+.navigasi {
+     margin-top: 30px;
+}
+
+.pencapaian {
+     margin: 10px;
+     padding: 10px;
+     border: 1px solid var(--garis);
+}
+
+.penting {
+     display: flex;
+     margin: 10px;
+}
+
+.light-mode .penting a {
+     color: var(--tem);
+}
+
+.milikmu {
+     border: 1px solid var(--garis);
+     border-radius: 50px;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     width: 150px;
+     background: var(--cool);
+}
+
+.milikmu .kiri,
+.milikmu .kanan {
+     display: flex;
+     align-items: center;
+}
+
+.milikmu svg {
+     width: 20px;
+     margin-right: 5px;
+     color: var(--tem);
+}
+
+.list-pencapaian {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.list-pencapaian .kiri {
+     display: flex;
+     align-items: center;
+}
+
+.list-pencapaian svg {
+     width: 20px;
+     margin-right: 10px;
+     color: var(--tem);
+}
+
+.nav {
+     display: flex;
+     font-weight: 900;
+     font-size: 15pt;
+     justify-content: flex-start;
+}
+
+.filter-icon a {
+     width: 50px;
+     justify-content: center;
+}
+
+.filter {
+     overflow: hidden;
+}
+
+.isi-filter {
+     display: none;
+     position: absolute;
+     border-radius: 20px;
+     background: var(--garis);
+}
+
+.isi-filter a {
+     display: block;
+}
+
+.filter:hover .isi-filter {
+     display: block;
+}
+
+.isi-menu a:first-child {
+     border-radius: 0;
+     margin-bottom: 0;
+     background: none;
+}
+
+.isi-menu a:first-child:hover {
+     background: var(--tem);
+     color: white;
+}
+
+.isi-menu a:first-child svg:hover {
+     color: white;
+}
+
+.navigasi a {
+     padding: 10px;
+     color: #fff;
+     font-weight: 100;
+     margin: 5px;
+}
+
+.jenjang,
+.tema {
+     display: none;
+}
+
+.navigasi a:hover {
+     background: var(--tem);
+     border-radius: 20px;
+     color: #fff;
+}
+
+.nav svg {
+     width: 30px;
+     margin-right: 20px;
+     color: var(--tem);
+}
+
+.nav:hover svg {
+     color: white;
+}
+
+.navigasi .active {
+     color: #36A7E0;
+}
+
+.nav:first-child:hover {
+     color: var(--tem);
+     background: var(--garis);
+}
+
+.navbar {
+     border-bottom: 1px solid var(--garis);
+     padding: 10px;
+     background: var(--bg);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.urut svg {
+     color: var(--tem);
+     width: 25px;
+     padding: 5px;
+     margin-right: 10px;
+}
+
+.urut .active {
+     background: var(--garis);
+     border-radius: 20px;
+}
+
+.urut svg:hover {
+     background: var(--garis);
+     border-radius: 20px;
+}
+
+.toggle:hover {
+     color: var(--tem);
+}
+
+::selection {
+     background: var(--garis);
+}
+
+.search-wrapper {
+     background-color: var(--cool);
+     height: 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     overflow: hidden;
+     font-weight: 100;
+     padding: 2px;
+     border-radius: 30px;
+}
+
+.search-wrapper input:focus::placeholder {
+     color: var(--tem);
+     font-weight: 100;
+}
+
+.search-wrapper svg {
+     color: var(--tem);
+     width: 15px;
+     margin: 10px;
+}
+
+.search-input {
+     border: none;
+     flex: 1;
+     outline: none;
+     height: 30px;
+     padding: 0 20px;
+     font-weight: 100;
+     font-size: 12px;
+     background: var(--cool);
+     color: var(--tem);
+}
+
+.search-input::placeholder {
+     color: var(--tem);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+     width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+     background: var(--lemb);
+}
+
+::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 5px $ {
+          ({
+               theme
+          })=>theme.colors.input
+}
+
+;
+border-radius: 10px;
+}
+
+.rangking {
+     border-bottom: 1px solid var(--garis);
+     border-top: 1px solid var(--garis);
+     margin-top: 50px;
+     padding: 10px;
+     border-radius: 20px;
+     background: var(--cool);
+}
+
+.rangking .title {
+     font-size: 15pt;
+     font-weight: bold;
+     color: var(--tem);
+     margin-bottom: 10px;
+     letter-spacing: 1px;
+}
+
+select {
+     background: var(--garis);
+     color: white;
+     border-radius: 20px;
+     border: 0;
+     padding: 5px;
+     outline: 0;
+}
+
+.simbol svg {
+     width: 30px;
+     background: var(--bg);
+     border-radius: 100%;
+     padding: 5px;
+}
+
+.title-container {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+     border-bottom: 1px solid var(--garis);
+}
+
+.isi-container .profile {
+     margin-top: 10px;
+}
+
+.isi-container .profile {
+     border-top: none;
+     font-weight: none;
+     font-size: 15pt;
+}
+
+.isi-container .profile svg {
+     width: 15px;
+     color: var(--tem);
+}
+
+.akhir-rangking {
+     border: none;
+     color: var(--tem);
+}
+
+.tingkatkan-poin {
+     margin-top: 50px;
+     background: var(--cool);
+     border-radius: 20px;
+}
+
+.tingkatkan-poin .label {
+     text-align: center;
+     padding-bottom: 10px;
+     font-weight: bold;
+     font-size: 15pt;
+}
+
+.isi-tingkatkan-poin {
+     height: 230px;
+     font-weight: 100;
+     border-radius: 20px;
+     overflow: auto;
+     padding: 10px;
+     padding-top: 20px;
+}
+
+.tingkatkan-poin-utama .isi-tingkatkan-poin {
+     height: 650px;
+}
+
+.label {
+     padding: 10px;
+     background: var(--garis);
+}
+
+.poin {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+}
+
+.icon-poin {
+     width: 30px;
+     margin-right: 10px;
+     background: var(--garis);
+     border-radius: 50px;
+     padding: 10px;
+}
+
+.icon-poin svg {
+     width: 25px;
+     color: var(--tem);
+}
+
+.text-poin {
+     font-size: 11pt;
+}
+
+.text-poin svg {
+     color: var(--tem);
+     width: 12px;
+}
+
+.desc-poin {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.desc-poin div {
+     margin: 10px;
+     display: flex;
+     justify-content: space-around;
+}
+
+.tiga {
+     text-align: center;
+     background: var(--garis);
+     padding: 5px 20px;
+     width: 20%;
+     border-radius: 10px;
+}
+
+.tiga:hover {
+     background: var(--bg);
+}
+
+.tanya {
+     padding: 20px;
+     border-bottom: 1px solid var(--garis);
+     background: var(--bg);
+     margin-bottom: 50px;
+}
+
+.tanya textarea {
+     padding: 10px;
+     font-size: 14pt;
+     outline: 0;
+     border: none;
+     background: var(--bg);
+     color: var(--tem);
+     height: auto;
+     width: 100%;
+     font-family: 'Acme', sans-serif;
+     resize: none;
+}
+
+.tanya textarea::placeholder {
+     font-family: 'Acme', sans-serif;
+     color: var(--tem);
+}
+
+.tanya textarea:focus::placeholder {
+     color: var(--tem);
+}
+
+.pendukung {
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.pendukung a svg {
+     width: 20px;
+     color: var(--tem);
+}
+
+.pendukung a {
+     margin-right: 10px;
+     padding: 5px;
+     border-radius: 100%;
+}
+
+.tombol-tanya {
+     text-align: center;
+     background: var(--tem);
+     padding: 10px;
+     border-radius: 5px;
+     font-size: 9pt;
+     -webkit-box-shadow: 0px 0px 15px -5px #15202B;
+     box-shadow: 0px 0px 15px -5px #15202B;
+}
+
+.mytabs {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 600px;
+     margin: 50px auto;
+     font-size: 10pt;
+     padding: 25px;
+     background: var(--bg);
+}
+
+.mytabs-profil {
+     margin-bottom: 20px;
+}
+
+.mytabs input[type="radio"] {
+     display: none;
+}
+
+.mytabs label {
+     padding: 10px;
+     border-radius: 20px;
+     margin-right: 10px;
+     border: 1px solid var(--tem);
+     background: var(--garis);
+     font-weight: bold;
+}
+
+.mytabs .tab {
+     width: 100%;
+     padding: 10px;
+     background: var(--bg);
+     order: 1;
+     display: none;
+     overflow-x: scroll;
+}
+
+.mytabs label svg {
+     width: 15px;
+}
+
+.mytabs .tab b {
+     font-weight: 100;
+     color: var(--tem);
+}
+
+.mytabs .tab h2 {
+     font-size: 3em;
+}
+
+.mytabs .tab p {
+     margin-top: 10px;
+}
+
+.mytabs input[type='radio']:checked+label+.tab {
+     display: block;
+}
+
+.mytabs input[type="radio"]:checked+label {
+     background: var(--tem);
+}
+
+.mytabs input[type="radio"]:hover+label {
+     background: var(--tem);
+}
+
+table {
+     background: var(--cool);
+     margin-top: 30px;
+     border-collapse: collapse;
+}
+
+thead {
+     background: var(--garis);
+}
+
+th {
+     color: white;
+     font-size: 0.85em;
+     font-weight: 200;
+     padding: 0.5em 1em;
+     text-align: left;
+}
+
+td {
+     color: #fff;
+     font-weight: 400;
+     padding: 0.5em 1em;
+}
+
+.disabled td {
+     color: #4F5F64;
+}
+
+tbody tr {
+     transition: background 0.25s ease;
+}
+
+tbody tr:hover {
+     background: var(--tem);
+}
+
+.table a {
+     border-bottom: 1px solid var(--tem);
+}
+
+
+.container-jawab a span:hover {
+     background: var(--tem);
+}
+
+.container-jawab a span:hover svg {
+     color: var(--garis);
+}
+
+.isi-tanya-container {
+     padding: 10px;
+     margin-bottom: 50px;
+     margin-top: 20px;
+}
+
+.isi-tanya-container-tantangan {
+     border-top: 1px solid var(--garis);
+}
+
+.isi-tanya-container p {
+     font-size: 10pt;
+}
+
+.isi-tanya-notif {
+     padding: 10px;
+     margin-bottom: 50px;
+}
+
+.container .rangking-container {
+     display: flex;
+     justify-content: center;
+}
+
+.home .isi-rangking-container {
+     padding: 10px;
+     margin: 5px;
+     margin-bottom: 50px;
+}
+
+.container .isi-rangking-container {
+     padding: 10px;
+     width: 90%;
+     margin-bottom: 50px;
+}
+
+.container .isi-rangking {
+     border-bottom: 1px solid var(--garis);
+     border-top: none;
+     padding-top: 5;
+     padding-bottom: 10px;
+}
+
+.isi-rangking {
+     display: flex;
+     border-top: 1px solid var(--garis);
+     justify-content: space-between;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     align-items: center;
+}
+
+.isi-rangking .kiri {
+     display: flex;
+     align-items: center;
+}
+
+.isi-rangking img {
+     width: 30px;
+     height: 30px;
+     margin-right: 10px;
+     border-radius: 100%;
+}
+
+.isi-rangking svg {
+     color: var(--tem);
+     width: 10px;
+}
+
+.notif {
+     border: 1px solid var(--tem);
+     border-radius: 20px;
+     padding: 10px;
+     margin-top: 10px;
+     font-weight: 100;
+     margin-bottom: 30px;
+}
+
+.notif h3 {
+     color: var(--tem);
+}
+
+.notif .orang {
+     color: var(--tem);
+}
+
+.notif .info .dilihat {
+     background: var(--garis);
+     padding: 5px;
+     font-size: 10pt;
+     border-radius: 20px;
+}
+
+.notif .info .dilihat svg {
+     margin-right: 5px;
+}
+
+.isi-tanya-container a .notif:hover {
+     background: var(--garis);
+}
+
+.isi-tanya {
+     margin-bottom: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background: var(--cool);
+     border: 1px solid var(--tem);
+     font-size: 10pt;
+}
+
+.container .isi-tanya-jawab {
+     padding: 20px;
+}
+
+.ttg-tanyaan {
+     font-weight: 100;
+     display: flex;
+     margin-bottom: 10px;
+     margin-left: 5px;
+}
+
+.ttg-tanyaan div {
+     margin-right: 10px;
+}
+
+.ttg-tanyaan span {
+     color: var(--tem);
+     margin-left: 5px;
+}
+
+.waktu span {
+     color: white;
+     font-size: 8pt;
+     padding: 5px;
+     border-radius: 20px;
+     background: var(--garis);
+}
+
+.info {
+     display: flex;
+     margin-top: 5px;
+}
+
+.info .dilihat {
+     margin-right: 10px;
+}
+
+.dilihat svg {
+     width: 12px;
+     color: var(--tem);
+}
+
+.paling-atas {
+     display: flex;
+     margin-bottom: 5px;
+}
+
+.paling-atas .waktu {
+     margin-left: 5px;
+}
+
+.container-jawab {
+     float: right;
+}
+
+.container-jawab svg {
+     width: 10px;
+     margin-right: 5px;
+     color: var(--tem)
+}
+
+.container-jawab .tombol-tanya {
+     background: var(--garis);
+     border: 1px solid var(--tem);
+     cursor: pointer;
+}
+
+.tanyaan-nya {
+     font-size: 15pt;
+}
+
+.tanyaan-nya img {
+     width: 90%;
+     height: auto;
+     margin-top: 10px;
+     border-radius: 20px;
+}
+
+.navigasi-tanya-jawab svg {
+     width: 15px;
+     margin-right: 5px;
+}
+
+.navigasi-tanya-jawab a:hover {
+     color: var(--tem);
+}
+
+/* dekstop styles */
+@media screen and (min-width: 1024px) {
+     .mobile {
+          display: none;
+     }
+}
+
+/* mobile styles */
+@media screen and (max-width: 1023px) {
+     .container {
+          display: none;
+     }
+
+     .mobile .logo {
+          border-radius: 0;
+          left: 0;
+          right: 0;
+     }
+
+     .mobile .navbar {
+          position: fixed;
+          background: var(--garis);
+          right: 0;
+          left: 0;
+          z-index: 99;
+          bottom: 0;
+          height: 30px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+     }
+
+     .mobile .navbar svg {
+          color: white;
+          width: 30px;
+     }
+
+     .mobile .navbar svg:hover,
+     .mobile .navbar svg.active {
+          color: var(--tem);
+     }
+
+     .mobile .home .search-wrapper {
+          font-size: 15pt;
+          right: 0;
+          left: 0;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          border-radius: 0;
+          font-weight: 100;
+          padding-right: 0;
+     }
+
+     .mobile .home input:focus::placeholder {
+          color: var(--tem);
+     }
+
+     .mobile .filter {
+          margin: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+
+     .mobile .filter svg {
+          width: 20px;
+          background: var(--garis);
+          padding: 5px;
+          border-radius: 10px;
+     }
+
+     .mobile .filter .keluar {
+          color: var(--tem);
+     }
+
+     .mobile .add-tanya {
+          border-top: 1px solid var(--garis);
+          margin-bottom: 20px;
+     }
+
+     .mobile .tanya {
+          margin-bottom: 5px;
+     }
+
+     .mobile .tanya textarea {
+          font-size: 12pt;
+     }
+
+     .mobile .pendukung {
+          padding: 10px;
+     }
+
+     .mobile .pendukung a svg {
+          width: 20px;
+          color: var(--tem);
+     }
+
+     .tombol-tanya {
+          padding: 5px;
+     }
+
+     .mobile .rangking-container {
+          display: flex;
+          justify-content: center;
+     }
+
+     .mobile .rangking {
+          margin-top: 20px;
+     }
+
+     .mobile .title-container .title {
+          font-size: 12pt;
+     }
+
+     .mobile .profile {
+          padding: 5px;
+          font-size: 10pt;
+     }
+
+     .mobile .profile img {
+          width: 25px;
+     }
+
+     .mobile .container-banyak {
+          -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+     }
+
+     .home .penting {
+          margin-top: 20px;
+          margin-bottom: 0;
+     }
+
+     .mobile .isi-tanya-container .pencapaian {
+          background: var(--cool);
+     }
+
+     .mobile .list-pencapaian .kiri {
+          margin-right: 20px;
+     }
+
+     .mobile .list-pencapaian .kiri svg {
+          width: 40px;
+     }
+
+     .mobile .list-pencapaian .kanan {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .mobile .list-pencapaian .kanan svg {
+          width: 10px;
+     }
+
+     .mobile .mytabs label {
+          background: var(--cool);
+          border: 0;
+          padding: 10px;
+          border-radius: 0;
+          margin: 0;
+     }
+
+     .mobile .mytabs input[type="radio"]:first-child+label {
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+     }
+
+     .mobile .mytabs-tanya input[type="radio"]:nth-last-child(3)+label {
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+     }
+
+     .mobile .mytabs-profil label:nth-child(14) {
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+     }
+
+     .mobile .mytabs label svg {
+          width: 15px;
+          color: var(--tem);
+     }
+
+     .mobile .mytabs label {
+          color: var(--tem);
+     }
+
+     .mobile .mytabs input[type="radio"]:hover+label {
+          background: var(--garis);
+     }
+
+     .mobile .mytabs input[type="radio"]:checked+label {
+          background: var(--garis);
+     }
+
+     .mobile .mytabs {
+          margin-bottom: 50px;
+          margin-top: 0;
+     }
+
+     .mobile .mytabs-tanya {
+          margin-bottom: 0;
+     }
+
+     .mobile .mytabs-tanya .tab .isi-tanya-container {
+          margin-bottom: 0;
+     }
+
+     .mobile .mytabs .isi-tanya-container .tanyaan-nya {
+          font-size: 12pt;
+     }
+
+     .mobile .mytabs .isi-tanya-container .container-jawab {
+          margin: 10px;
+     }
+
+     .mobile .tanyaan-nya img {
+          width: 100%;
+          height: auto;
+          margin-top: 10px;
+          border-radius: 20px;
+     }
+
+     .mobile .hasil-jawab .tanya {
+          border: 1px solid var(--tem);
+          border-radius: 20px;
+          margin-bottom: 20px;
+     }
+
+     .mobile .hasil-jawab .tanya textarea::placeholder {
+          color: var(--tem);
+     }
+
+     .mobile .hasil-jawab .tanya .tombol-tanya {
+          padding: 5px 15px;
+     }
+}
